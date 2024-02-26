@@ -3,7 +3,7 @@ gitRepo:
   targetRevision: HEAD
 baseDomain: dummy
 git:
-  organization: redhat-na-ssa
+  organization: ghrhdh1
 gitlab:
   install: false
 rhsso:

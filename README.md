@@ -62,7 +62,7 @@ source .venv/bin/activate
 Before running the playbooks you need to setup a set of environment variables. 
 To do so, create a hidden directory named `.ignored` (**this git repo is configured to ignore this directory on commit/push**). Then create a file named `env.sh` with the following content.
 
-> **Note**: refer to [this guide](https://github.com/redhat-na-ssa/setup-playbooks/blob/main/rh-developer-hub/readme.md#create-github-organization-if-not-exist) to properly create a Github Organization and a App.
+> **Note**: refer to [this guide](https://github.com/alexgroom/setup-playbooks/blob/main/rh-developer-hub/readme.md#create-github-organization-if-not-exist) to properly create a Github Organization and a App.
 > Go to your Quay console and create a new organization and a Quay oAuth App. Then create a token with admin access to this org. 
 
 ```sh

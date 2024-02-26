@@ -23,7 +23,7 @@
     quay_registry_server_url: "https://quay.io"
     vault_namespace: "vault"
     keycloak_host: ""
-    backstage_gitops_repo: "https://github.com/redhat-na-ssa/redhat-developer-hub-gitops-bootstrap.git"
+    backstage_gitops_repo: "https://github.com/alexgroom/redhat-developer-hub-gitops-bootstrap.git"
 
   tasks:
     - name: Retrieve Ingress config
