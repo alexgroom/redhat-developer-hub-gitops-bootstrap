@@ -15,8 +15,6 @@ spec:
     repoURL: {{ .Values.gitRepo.URL }}
     targetRevision: {{ .Values.gitRepo.targetRevision }}
     path: operators/hashicorp-vault/kustomize/overlays/vault
-    directory:
-      recurse: false
   destination:
     server: https://kubernetes.default.svc
     namespace: vault
