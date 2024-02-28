@@ -31,7 +31,7 @@ patches:
   - patch: |-
       - op: replace
         path: /spec/namespaceName
-        value: "redhat_na_ssa" #replace by your Quay Organization/namespace here!!!
+        value: "rhdh1" #replace by your Quay Organization/namespace here!!!
       - op: replace
         path: /metadata/name
         # this value must consist of lower case alphanumeric characters, '-' or '.', and must start and end with an alphanumeric character
