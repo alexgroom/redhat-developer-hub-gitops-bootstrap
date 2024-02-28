@@ -35,6 +35,6 @@ patches:
       - op: replace
         path: /metadata/name
         # this value must consist of lower case alphanumeric characters, '-' or '.', and must start and end with an alphanumeric character
-        value: "rhdh1" #replace by your Quay Organization/namespace here!!!
+        value: "ghrhdh1" #replace by your Quay Organization/namespace here!!!
     target:
       kind: QuaySecretEngineRole
